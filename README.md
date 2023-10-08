@@ -12,21 +12,26 @@ The general idea is to find out the correct meaning by calculating a similarity 
 We also use POS tagger to make sure the meaning have the correct word type (noun, verbs, etc.) based on the context sentence.
 
 ## Files structure:
-1/ modules: Python files containing all functions used \n
-a. score_calc.py: functions to score all meanings based on keyword - context sentence \n
-b. scrape_dict.py: functions to scrape the dictionary database \n
+1/ modules: Python files containing all functions used
+
+a. score_calc.py: functions to score all meanings based on keyword - context sentence
+b. scrape_dict.py: functions to scrape the dictionary database
+
 2/ pages:
 a. About.py: 
 b. Analysis.py: 
 c. Evaluation.py:
 d. images: all images used in the rendered pages
 e. analysis_data:
-   + test_100.xlsx: testing dataset to evaluate the model performance
+- test_100.xlsx: testing dataset to evaluate the model performance
+
 3/ trained_logs:
 a. M_matrix_final.npy: the trained word co-occurrence matrix
 b. dict_final.json: the final word corpus
 c. word2vec_100dim_50000.model: the trained Word2Vec model
+
 4/ Home.py: the homepage where we input keyword-context pair to browse results
+
 5/ requirements.txt: all libraries required to run the application
 
 ## Results
