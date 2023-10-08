@@ -21,8 +21,7 @@ a. About.py: information about the application (general idea, how it works, data
 b. Analysis.py: a simulation test to quantify the needs to use our application <br>
 c. Evaluation.py: model results evaluation <br>
 d. images: all images used in the rendered pages <br>
-e. analysis_data:
-+ test_100.xlsx: testing dataset to evaluate the model performance <br>
+e. analysis_data: test_100.xlsx - testing dataset to evaluate the model performance <br>
 
 3/ trained_logs: <br>
 a. M_matrix_final.npy: the trained word co-occurrence matrix <br>
