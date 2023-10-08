@@ -12,9 +12,9 @@ The general idea is to find out the correct meaning by calculating a similarity 
 We also use POS tagger to make sure the meaning have the correct word type (noun, verbs, etc.) based on the context sentence.
 
 ## Files structure:
-1/ modules: Python files containing all functions used
-a. score_calc.py: functions to score all meanings based on keyword - context sentence
-b. scrape_dict.py: functions to scrape the dictionary database
+1/ modules: Python files containing all functions used \n
+a. score_calc.py: functions to score all meanings based on keyword - context sentence \n
+b. scrape_dict.py: functions to scrape the dictionary database \n
 2/ pages:
 a. About.py: 
 b. Analysis.py: 
