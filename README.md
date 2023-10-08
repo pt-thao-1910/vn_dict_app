@@ -1,6 +1,8 @@
 # Vietnamese intelligent dictionary application
-This is a Vietnamese dictionary which provides list of ordered meaning based on the context sentence.
-We aim to enhance your experience when using online dictionaries by reducing the time needed to be spent on finding out the right meaning among a long list of meanings and explanations.
+This is a Vietnamese dictionary which provides list of ordered meaning based on the context sentence. <br>
+We aim to enhance your experience when using online dictionaries by reducing the time needed to be spent on finding out the right meaning among a long list of meanings and explanations. <br>
+The application is deployed here:<br>
+https://vndictapp-ek4r3xdf5irkysabnqhewt.streamlit.app/
 
 ## Project Motivation
 One of the most common problem for current online dictionaries we observe nowadays is the lack of consideration for context. When searching for a keyword, the dictionary simply returns a list of meanings regardless of what context the keyword is in. Therefore, when browsing for the correct meaning of a word, dictionary users often have to read through the whole explanation for the keyword, which can be very time consuming and inconvenient, especially when the keyword has multiple meanings and word types. To solve the problem, we hope to build an intelligent dictionary that can present meanings based on the the context sentence using some simple natural language processing methods.
