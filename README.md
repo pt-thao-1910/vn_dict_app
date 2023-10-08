@@ -15,18 +15,22 @@ We also use POS tagger to make sure the meaning have the correct word type (noun
 1/ modules: Python files containing all functions used <br>
 a. score_calc.py: functions to score all meanings based on keyword - context sentence <br>
 b. scrape_dict.py: functions to scrape the dictionary database<br>
-2/ pages:
+
+2/ pages: <br>
 a. About.py: information about the application (general idea, how it works, data sources, etc.) <br>
 b. Analysis.py: a simulation test to quantify the needs to use our application <br>
 c. Evaluation.py: model results evaluation <br>
 d. images: all images used in the rendered pages <br>
 e. analysis_data: <br>
-- test_100.xlsx: testing dataset to evaluate the model performance <br>
++ test_100.xlsx: testing dataset to evaluate the model performance <br>
+
 3/ trained_logs: <br>
 a. M_matrix_final.npy: the trained word co-occurrence matrix <br>
 b. dict_final.json: the final word corpus <br>
 c. word2vec_100dim_50000.model: the trained Word2Vec model <br>
+
 4/ Home.py: the homepage where we input keyword-context pair to browse results <br>
+
 5/ requirements.txt: all libraries required to run the application <br>
 
 ## Results
