@@ -1,0 +1,1 @@
+# Vietnamese intelligent dictionary application
