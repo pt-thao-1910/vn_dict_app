@@ -34,5 +34,7 @@ c. word2vec_100dim_50000.model: the trained Word2Vec model <br>
 
 5/ requirements.txt: all libraries required to run the application <br>
 
+6/ report.pdf: a final report to summarize the project 
+
 ## Results
 The final dictionary application we built has shown potential to improve the user experience of current traditional dictionaries: less time is required to read explanations for meanings, and a final score is given as a reference for users to analyze the role of a keyword in the context. We can further use this application for other purposes, for example, to improve the dictionary function of Kindle or dictionary plugins currently used on browsers. We believe this application has many potentials worthy to be further explored and utilized.
