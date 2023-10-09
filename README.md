@@ -14,9 +14,13 @@ The general idea is to find out the correct meaning by calculating a similarity 
 We also use POS tagger to make sure the meaning have the correct word type (noun, verbs, etc.) based on the context sentence.
 
 ## Libraries:
-In this project, we mainly utilized library "underthesea" to apply various NLP techniques and calculate the scores for list of meanings. <br>
-As data scraping is required, we also applied "requests" and "bs4" to scrape and clean the text data. <br>
-To host the application, we utilized library "streamlit".
+List of libraries used in the project:
++ "underthesea": text cleaning, word tokenization, etc. <br>
++ "regex": text cleaning <br>
++ "gensim": to build word vectors <br>
++ "requests" and "bs4": to scrape and clean the text data <br>
++ "streamlit": to host the application <br>
++ "plotly": to plot the analysis results <br>
 
 ## How to use the application:
 You can use the application directly at the link provided above (deployed app: https://vndictapp-ek4r3xdf5irkysabnqhewt.streamlit.app/).<br>
@@ -24,6 +28,7 @@ The app can also be run locally by opening the "vn_dict" repository and running 
 ```
 python -m streamlit run Home.py
 ```
+Make sure you have installed all libraries listed above before running the application.
 
 ## Files structure:
 1/ modules: Python files containing all functions used <br>
